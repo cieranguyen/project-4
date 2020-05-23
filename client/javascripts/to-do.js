@@ -18,7 +18,7 @@ if (localStorage.getItem("commentsList")) {
       $(".comment-input input").val("");
 
       //log the list of paragraph elements
-      localStorage.setItem("commetsList", $(".comments").html());
+      localStorage.setItem("commentsList", $(".comments").html());
       console.log(localStorage.getItem("CommentsList"));
     }
   };
